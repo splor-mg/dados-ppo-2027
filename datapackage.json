@@ -4,6 +4,221 @@
   "profile": "tabular-data-package",
   "resources": [
     {
+      "name": "acoes_planejamento",
+      "type": "table",
+      "title": "acoes_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/acoes_planejamento.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:63e6a5437c3644513d1e334a8937772c376f2c84b11c91174bd327b4d5f577a4",
+      "bytes": 2115912,
+      "fields": 49,
+      "rows": 1015,
+      "schema": {
+        "fields": [
+          {
+            "name": "programa_cod",
+            "type": "integer"
+          },
+          {
+            "name": "programa_desc",
+            "type": "string"
+          },
+          {
+            "name": "area_tematica_cod",
+            "type": "integer"
+          },
+          {
+            "name": "area_tematica_desc",
+            "type": "string"
+          },
+          {
+            "name": "is_deleted_programa",
+            "type": "boolean"
+          },
+          {
+            "name": "is_new_programa",
+            "type": "boolean"
+          },
+          {
+            "name": "justificativa_is_new_programa",
+            "type": "string"
+          },
+          {
+            "name": "uo_programa_cod",
+            "type": "integer"
+          },
+          {
+            "name": "uo_programa_nome",
+            "type": "string"
+          },
+          {
+            "name": "uo_acao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "uo_acao_nome",
+            "type": "string"
+          },
+          {
+            "name": "funcao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "funcao_desc",
+            "type": "string"
+          },
+          {
+            "name": "subfuncao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "subfuncao_desc",
+            "type": "string"
+          },
+          {
+            "name": "identificador_tipo_acao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "identificador_tipo_acao_desc",
+            "type": "string"
+          },
+          {
+            "name": "acao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "acao_desc",
+            "type": "string"
+          },
+          {
+            "name": "iag_cod",
+            "type": "integer"
+          },
+          {
+            "name": "iag_desc",
+            "type": "string"
+          },
+          {
+            "name": "projeto_estrategico_cod",
+            "type": "integer"
+          },
+          {
+            "name": "projeto_estrategico",
+            "type": "string"
+          },
+          {
+            "name": "is_deleted_acao",
+            "type": "boolean"
+          },
+          {
+            "name": "is_new_acao",
+            "type": "boolean"
+          },
+          {
+            "name": "justificativa_is_new_acao",
+            "type": "string"
+          },
+          {
+            "name": "is_transferida_sisor",
+            "type": "any"
+          },
+          {
+            "name": "ua_acao_nome",
+            "type": "string"
+          },
+          {
+            "name": "base_legal",
+            "type": "string"
+          },
+          {
+            "name": "acao_finalidade",
+            "type": "string"
+          },
+          {
+            "name": "acao_descricao",
+            "type": "string"
+          },
+          {
+            "name": "publico_alvo_cod",
+            "type": "integer"
+          },
+          {
+            "name": "publico_alvo_desc",
+            "type": "string"
+          },
+          {
+            "name": "produto_cod",
+            "type": "integer"
+          },
+          {
+            "name": "produto_desc",
+            "type": "string"
+          },
+          {
+            "name": "produto_especificacao",
+            "type": "string"
+          },
+          {
+            "name": "produto_unidade_medida_cod",
+            "type": "integer"
+          },
+          {
+            "name": "produto_unidade_medida_desc",
+            "type": "string"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano0",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano0",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano1",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano1",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano2",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano2",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano3",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano3",
+            "type": "integer"
+          },
+          {
+            "name": "is_acao_transposta",
+            "type": "any"
+          },
+          {
+            "name": "setor_governo",
+            "type": "string"
+          },
+          {
+            "name": "politica_mulheres",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
       "name": "base_categoria_pessoal",
       "type": "table",
       "title": "base_categoria_pessoal",
@@ -1014,8 +1229,417 @@
           }
         ]
       }
+    },
+    {
+      "name": "indicadores_planejamento",
+      "type": "table",
+      "title": "indicadores_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/indicadores_planejamento.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:4463db22dc96c7e60230ab0aba7b80683128a7da9d76a0859fcd043b0d2e8e6a",
+      "bytes": 113965,
+      "fields": 26,
+      "rows": 227,
+      "schema": {
+        "fields": [
+          {
+            "name": "programa_cod",
+            "type": "integer"
+          },
+          {
+            "name": "programa_nome",
+            "type": "string"
+          },
+          {
+            "name": "is_deleted_programa",
+            "type": "boolean"
+          },
+          {
+            "name": "indicador",
+            "type": "string"
+          },
+          {
+            "name": "is_deleted_indicador",
+            "type": "boolean"
+          },
+          {
+            "name": "unidade_de_medida",
+            "type": "string"
+          },
+          {
+            "name": "indice_de_referencia",
+            "type": "number"
+          },
+          {
+            "name": "is_em_apuracao_indice_de_referencia",
+            "type": "boolean"
+          },
+          {
+            "name": "dt_apuracao",
+            "type": "string"
+          },
+          {
+            "name": "previsao_para_ano0",
+            "type": "integer"
+          },
+          {
+            "name": "is_em_apuracao_ano0",
+            "type": "boolean"
+          },
+          {
+            "name": "previsao_para_ano1",
+            "type": "integer"
+          },
+          {
+            "name": "is_em_apuracao_ano1",
+            "type": "boolean"
+          },
+          {
+            "name": "previsao_para_ano2",
+            "type": "integer"
+          },
+          {
+            "name": "is_em_apuracao_ano2",
+            "type": "boolean"
+          },
+          {
+            "name": "previsao_para_ano3",
+            "type": "integer"
+          },
+          {
+            "name": "is_em_apuracao_ano3",
+            "type": "boolean"
+          },
+          {
+            "name": "fonte",
+            "type": "string"
+          },
+          {
+            "name": "periodicidade",
+            "type": "string"
+          },
+          {
+            "name": "base_geografica",
+            "type": "string"
+          },
+          {
+            "name": "formula_de_calculo",
+            "type": "string"
+          },
+          {
+            "name": "justificativa_status_apuracao_previsoes",
+            "type": "string"
+          },
+          {
+            "name": "justificativa_status_apuracao_indice_ref",
+            "type": "string"
+          },
+          {
+            "name": "updated_at",
+            "type": "any"
+          },
+          {
+            "name": "is_indicador_new",
+            "type": "boolean"
+          },
+          {
+            "name": "polaridade",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "localizadores_todos_planejamento",
+      "type": "table",
+      "title": "localizadores_todos_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/localizadores_todos_planejamento.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:4c6c449cd73402099cc76d35425207625142fd5477f29941deee31b45d62e312",
+      "bytes": 21544582,
+      "fields": 33,
+      "rows": 49468,
+      "schema": {
+        "fields": [
+          {
+            "name": "programa_cod",
+            "type": "integer"
+          },
+          {
+            "name": "programa_desc",
+            "type": "string"
+          },
+          {
+            "name": "area_tematica_cod",
+            "type": "integer"
+          },
+          {
+            "name": "area_tematica_desc",
+            "type": "string"
+          },
+          {
+            "name": "is_deleted_programa",
+            "type": "boolean"
+          },
+          {
+            "name": "acao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "acao_desc",
+            "type": "string"
+          },
+          {
+            "name": "iag_cod",
+            "type": "integer"
+          },
+          {
+            "name": "iag_desc",
+            "type": "string"
+          },
+          {
+            "name": "projeto_estrategico_cod",
+            "type": "integer"
+          },
+          {
+            "name": "projeto_estrategico_desc",
+            "type": "string"
+          },
+          {
+            "name": "funcao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "funcao_desc",
+            "type": "string"
+          },
+          {
+            "name": "subfuncao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "subfuncao_desc",
+            "type": "string"
+          },
+          {
+            "name": "uo_acao_cod",
+            "type": "integer"
+          },
+          {
+            "name": "uo_acao_nome",
+            "type": "string"
+          },
+          {
+            "name": "is_deleted_acao",
+            "type": "boolean"
+          },
+          {
+            "name": "localizador_cod",
+            "type": "any"
+          },
+          {
+            "name": "is_deleted_localizador",
+            "type": "any"
+          },
+          {
+            "name": "regiao_geografica_cod",
+            "type": "integer"
+          },
+          {
+            "name": "regiao_geografica_desc",
+            "type": "string"
+          },
+          {
+            "name": "municipio_ibge_cod",
+            "type": "integer"
+          },
+          {
+            "name": "municipio_sigplan_cod",
+            "type": "integer"
+          },
+          {
+            "name": "municipio",
+            "type": "string"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano0",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano0",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano1",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano1",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano2",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano2",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano3",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_fisica_ano3",
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    {
+      "name": "programas_planejamento",
+      "type": "table",
+      "title": "programas_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/programas_planejamento.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:76784037769ed5df85892a844f08f284b2f6d6c4112338710c214d6c6c1a059b",
+      "bytes": 26982295,
+      "fields": 29,
+      "rows": 8267,
+      "schema": {
+        "fields": [
+          {
+            "name": "programa_cod",
+            "type": "integer"
+          },
+          {
+            "name": "programa_desc",
+            "type": "string"
+          },
+          {
+            "name": "is_deleted_programa",
+            "type": "boolean"
+          },
+          {
+            "name": "is_new_programa",
+            "type": "boolean"
+          },
+          {
+            "name": "area_tematica_cod",
+            "type": "integer"
+          },
+          {
+            "name": "area_tematica_desc",
+            "type": "string"
+          },
+          {
+            "name": "objetivo_estrategico_cod",
+            "type": "integer"
+          },
+          {
+            "name": "objetivo_estrategico_desc",
+            "type": "string"
+          },
+          {
+            "name": "diretriz_estrategica_cod",
+            "type": "integer"
+          },
+          {
+            "name": "diretriz_estrategica_desc",
+            "type": "string"
+          },
+          {
+            "name": "justificativa_is_new_programa",
+            "type": "any"
+          },
+          {
+            "name": "orgao_programa_cod",
+            "type": "integer"
+          },
+          {
+            "name": "orgao_programa_nome",
+            "type": "string"
+          },
+          {
+            "name": "uo_programa_cod",
+            "type": "integer"
+          },
+          {
+            "name": "uo_programa_nome",
+            "type": "string"
+          },
+          {
+            "name": "objetivo",
+            "type": "string"
+          },
+          {
+            "name": "justificativa",
+            "type": "string"
+          },
+          {
+            "name": "tipo_de_programa",
+            "type": "string"
+          },
+          {
+            "name": "horizonte_temporal",
+            "type": "string"
+          },
+          {
+            "name": "estrategia_de_implementacao",
+            "type": "string"
+          },
+          {
+            "name": "ua_programa_nome",
+            "type": "string"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano0",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano1",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano2",
+            "type": "integer"
+          },
+          {
+            "name": "vr_meta_orcamentaria_ano3",
+            "type": "integer"
+          },
+          {
+            "name": "is_programa_transposto",
+            "type": "any"
+          },
+          {
+            "name": "causas",
+            "type": "string"
+          },
+          {
+            "name": "ods_titulo",
+            "type": "string"
+          },
+          {
+            "name": "ods_subtitulo",
+            "type": "any"
+          }
+        ]
+      }
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-08-25T12:46:59"
+  "updated_at": "2026-08-25T14:15:01"
 }
