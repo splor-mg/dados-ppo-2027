@@ -4,221 +4,6 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "acoes_planejamento",
-      "type": "table",
-      "title": "acoes_planejamento",
-      "profile": "tabular-data-resource",
-      "path": "data/acoes_planejamento.csv",
-      "scheme": "file",
-      "format": "csv",
-      "mediatype": "text/csv",
-      "encoding": "utf-8",
-      "hash": "sha256:d4500ccf946f5324135eaabf9b1d570afaf44934c0fe779f7fbb18e3d724bdba",
-      "bytes": 2120824,
-      "fields": 49,
-      "rows": 1017,
-      "schema": {
-        "fields": [
-          {
-            "name": "programa_cod",
-            "type": "integer"
-          },
-          {
-            "name": "programa_desc",
-            "type": "string"
-          },
-          {
-            "name": "area_tematica_cod",
-            "type": "integer"
-          },
-          {
-            "name": "area_tematica_desc",
-            "type": "string"
-          },
-          {
-            "name": "is_deleted_programa",
-            "type": "boolean"
-          },
-          {
-            "name": "is_new_programa",
-            "type": "boolean"
-          },
-          {
-            "name": "justificativa_is_new_programa",
-            "type": "string"
-          },
-          {
-            "name": "uo_programa_cod",
-            "type": "integer"
-          },
-          {
-            "name": "uo_programa_nome",
-            "type": "string"
-          },
-          {
-            "name": "uo_acao_cod",
-            "type": "integer"
-          },
-          {
-            "name": "uo_acao_nome",
-            "type": "string"
-          },
-          {
-            "name": "funcao_cod",
-            "type": "integer"
-          },
-          {
-            "name": "funcao_desc",
-            "type": "string"
-          },
-          {
-            "name": "subfuncao_cod",
-            "type": "integer"
-          },
-          {
-            "name": "subfuncao_desc",
-            "type": "string"
-          },
-          {
-            "name": "identificador_tipo_acao_cod",
-            "type": "integer"
-          },
-          {
-            "name": "identificador_tipo_acao_desc",
-            "type": "string"
-          },
-          {
-            "name": "acao_cod",
-            "type": "integer"
-          },
-          {
-            "name": "acao_desc",
-            "type": "string"
-          },
-          {
-            "name": "iag_cod",
-            "type": "integer"
-          },
-          {
-            "name": "iag_desc",
-            "type": "string"
-          },
-          {
-            "name": "projeto_estrategico_cod",
-            "type": "integer"
-          },
-          {
-            "name": "projeto_estrategico",
-            "type": "string"
-          },
-          {
-            "name": "is_deleted_acao",
-            "type": "boolean"
-          },
-          {
-            "name": "is_new_acao",
-            "type": "boolean"
-          },
-          {
-            "name": "justificativa_is_new_acao",
-            "type": "string"
-          },
-          {
-            "name": "is_transferida_sisor",
-            "type": "any"
-          },
-          {
-            "name": "ua_acao_nome",
-            "type": "string"
-          },
-          {
-            "name": "base_legal",
-            "type": "string"
-          },
-          {
-            "name": "acao_finalidade",
-            "type": "string"
-          },
-          {
-            "name": "acao_descricao",
-            "type": "string"
-          },
-          {
-            "name": "publico_alvo_cod",
-            "type": "integer"
-          },
-          {
-            "name": "publico_alvo_desc",
-            "type": "string"
-          },
-          {
-            "name": "produto_cod",
-            "type": "integer"
-          },
-          {
-            "name": "produto_desc",
-            "type": "string"
-          },
-          {
-            "name": "produto_especificacao",
-            "type": "string"
-          },
-          {
-            "name": "produto_unidade_medida_cod",
-            "type": "integer"
-          },
-          {
-            "name": "produto_unidade_medida_desc",
-            "type": "string"
-          },
-          {
-            "name": "vr_meta_orcamentaria_ano0",
-            "type": "integer"
-          },
-          {
-            "name": "vr_meta_fisica_ano0",
-            "type": "integer"
-          },
-          {
-            "name": "vr_meta_orcamentaria_ano1",
-            "type": "integer"
-          },
-          {
-            "name": "vr_meta_fisica_ano1",
-            "type": "integer"
-          },
-          {
-            "name": "vr_meta_orcamentaria_ano2",
-            "type": "integer"
-          },
-          {
-            "name": "vr_meta_fisica_ano2",
-            "type": "integer"
-          },
-          {
-            "name": "vr_meta_orcamentaria_ano3",
-            "type": "integer"
-          },
-          {
-            "name": "vr_meta_fisica_ano3",
-            "type": "integer"
-          },
-          {
-            "name": "is_acao_transposta",
-            "type": "any"
-          },
-          {
-            "name": "setor_governo",
-            "type": "string"
-          },
-          {
-            "name": "politica_mulheres",
-            "type": "string"
-          }
-        ]
-      }
-    },
-    {
       "name": "base_categoria_pessoal",
       "type": "table",
       "title": "base_categoria_pessoal",
@@ -232,11 +17,16 @@
       "bytes": 13311,
       "fields": 5,
       "rows": 295,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "ano",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_cod_sigla",
@@ -252,7 +42,7 @@
           },
           {
             "name": "quantidade",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
@@ -267,47 +57,52 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:b735d191c76cc7b4f1b4e80c1a3cef197d6ae4fa09c38f6c127cd2c01d0eb469",
-      "bytes": 35582,
+      "hash": "sha256:f57065df923c19afab5bc2f47f303e64114f610583c4070e0a20599f09e9108d",
+      "bytes": 35576,
       "fields": 24,
       "rows": 165,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "funcao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subprojeto_subatividade_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "numero_da_obra_sisor",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "numero_da_obra_siad",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "descricao_da_obra",
@@ -319,11 +114,11 @@
           },
           {
             "name": "unidade_de_medida_da_obra",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "quantidade",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "alterar_unidade_de_medida_da_obra",
@@ -339,35 +134,35 @@
           },
           {
             "name": "vlr_tesouro_ano0",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "vlr_outros_ano0",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "vlr_tesouro_ano1",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_outros_ano1",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_tesouro_ano2",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_outros_ano2",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_tesouro_ano3",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_outros_ano3",
-            "type": "any"
+            "type": "string"
           }
         ]
       }
@@ -386,11 +181,16 @@
       "bytes": 342,
       "fields": 4,
       "rows": 10,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_sigla",
@@ -398,11 +198,11 @@
           },
           {
             "name": "vlr_recebido",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vlr_detalhado",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
@@ -421,11 +221,16 @@
       "bytes": 44972,
       "fields": 9,
       "rows": 217,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "uo_repassadora_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_repassadora_sigla",
@@ -449,11 +254,11 @@
           },
           {
             "name": "vlr_repassado",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_beneficiada_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_beneficiada_sigla",
@@ -476,11 +281,16 @@
       "bytes": 14714,
       "fields": 15,
       "rows": 394,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo",
@@ -488,55 +298,55 @@
           },
           {
             "name": "grupo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "fonte_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "ipu_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vlr_limite_ano0",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vlr_utilizado_ano0",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_transferido",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_limite_ano1",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_utilizado_ano1",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_limite_ano2",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_utilizado_ano2",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_limite_ano3",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_utilizado_ano3",
-            "type": "any"
+            "type": "string"
           }
         ]
       }
@@ -555,11 +365,16 @@
       "bytes": 8132,
       "fields": 21,
       "rows": 32,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "orgao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "orgao_nome_sigla",
@@ -567,7 +382,7 @@
           },
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_nome_sigla",
@@ -575,39 +390,39 @@
           },
           {
             "name": "funcao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "identificador",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "projeto_atividade",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subprojeto_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "fonte_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "descricao",
@@ -615,31 +430,31 @@
           },
           {
             "name": "categoria_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "natureza_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "natureza",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp_invest_ano0",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp_invest_ano1",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp_invest_ano2",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp_invest_ano3",
-            "type": "any"
+            "type": "string"
           }
         ]
       }
@@ -658,11 +473,16 @@
       "bytes": 1651589,
       "fields": 21,
       "rows": 7297,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "orgao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "orgao_nome_sigla",
@@ -670,7 +490,7 @@
           },
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_nome_sigla",
@@ -678,63 +498,63 @@
           },
           {
             "name": "funcao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "identificador_tipo_acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "projeto_atividade_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subprojeto_subatividade_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "categoria_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "grupo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "modalidade_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "elemento_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "item_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "fonte_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "ipu_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_desc",
@@ -742,7 +562,7 @@
           },
           {
             "name": "vlr_loa_desp",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
@@ -757,15 +577,20 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:89d2903cced891c5899c49ce923841d07a45451fcb9d2530d6c82cd90ee3083b",
-      "bytes": 432538,
+      "hash": "sha256:c97f3217383a90120a8ec9b3582b4109b20503fb71b8c1bbe9ffb766701d2a77",
+      "bytes": 432536,
       "fields": 24,
       "rows": 1206,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "nome_uo",
@@ -777,55 +602,55 @@
           },
           {
             "name": "fonte_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "fonte_desc",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "interpretacao",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "categoria",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "origem",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "especie",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "rubrica",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "alinea",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subalinea",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "tipo_receita",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "item",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subitem",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "receita_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "receita_desc",
@@ -833,27 +658,27 @@
           },
           {
             "name": "interp_receita",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_rec_uo",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_rec_scppo",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_rec",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "ano",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "base_legal",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "metodologia_de_calculo_e_premissas_utilizadas",
@@ -876,11 +701,16 @@
       "bytes": 1251,
       "fields": 14,
       "rows": 13,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_nome",
@@ -892,47 +722,47 @@
           },
           {
             "name": "categoria",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "subcategoria",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "alinea",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "subalinea",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "cod_receita",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "nivel_origem",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "receita",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_rec_uo_invest",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_rec_scppo_invest",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_rec_invest",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "ano",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
@@ -951,15 +781,20 @@
       "bytes": 934041,
       "fields": 27,
       "rows": 3343,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "ano",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "orgao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "orgao_nome_sigla",
@@ -967,15 +802,15 @@
           },
           {
             "name": "poder_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "situacao",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_nome_sigla",
@@ -983,75 +818,75 @@
           },
           {
             "name": "categoria_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "grupo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "modalidade_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "elemento_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "fonte_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "ipu_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "seq_progtrab",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "funcao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "identificador_tipo_acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "projeto_atividade_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subprojeto_subatividade_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp_uo",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp_scppo",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_desc",
@@ -1078,15 +913,20 @@
       "bytes": 12422,
       "fields": 23,
       "rows": 32,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "ano",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "orgao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "orgao_nome_sigla",
@@ -1094,11 +934,11 @@
           },
           {
             "name": "poder_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_nome_sigla",
@@ -1106,39 +946,39 @@
           },
           {
             "name": "seq_progtrab",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "funcao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "ident_projativ",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "proj_ativ",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vlr_loa_desp_invest",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "desc_projeto_ativ",
@@ -1146,19 +986,19 @@
           },
           {
             "name": "categoria_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "natureza_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "natureza",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "fonte_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "fonte",
@@ -1189,11 +1029,16 @@
       "bytes": 3241,
       "fields": 9,
       "rows": 23,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "uo_financiadora_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_financiadora_nome",
@@ -1201,7 +1046,7 @@
           },
           {
             "name": "uo_beneficiada_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_beneficiada_nome",
@@ -1209,23 +1054,23 @@
           },
           {
             "name": "grupo_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "fonte_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "ipu_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vlr_repasse",
-            "type": "number"
+            "type": "string"
           }
         ]
       }
@@ -1240,15 +1085,20 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:3c2594fc8fad06becdbe404ed4bb8720870e7870ddcc0de73447dca31cfe3b63",
-      "bytes": 113970,
+      "hash": "sha256:b4309bcd0e1077dbc899c03025a82d917f6f9ed6b571cc67694a942c55ddc8b0",
+      "bytes": 113818,
       "fields": 26,
       "rows": 227,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_nome",
@@ -1256,7 +1106,7 @@
           },
           {
             "name": "is_deleted_programa",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "indicador",
@@ -1264,7 +1114,7 @@
           },
           {
             "name": "is_deleted_indicador",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "unidade_de_medida",
@@ -1272,11 +1122,11 @@
           },
           {
             "name": "indice_de_referencia",
-            "type": "number"
+            "type": "string"
           },
           {
             "name": "is_em_apuracao_indice_de_referencia",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "dt_apuracao",
@@ -1284,35 +1134,35 @@
           },
           {
             "name": "previsao_para_ano0",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "is_em_apuracao_ano0",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "previsao_para_ano1",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "is_em_apuracao_ano1",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "previsao_para_ano2",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "is_em_apuracao_ano2",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "previsao_para_ano3",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "is_em_apuracao_ano3",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "fonte",
@@ -1340,11 +1190,11 @@
           },
           {
             "name": "updated_at",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "is_indicador_new",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "polaridade",
@@ -1367,11 +1217,16 @@
       "bytes": 21507505,
       "fields": 33,
       "rows": 49356,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_desc",
@@ -1379,7 +1234,7 @@
           },
           {
             "name": "area_tematica_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "area_tematica_desc",
@@ -1387,11 +1242,11 @@
           },
           {
             "name": "is_deleted_programa",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "acao_desc",
@@ -1399,7 +1254,7 @@
           },
           {
             "name": "iag_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "iag_desc",
@@ -1407,7 +1262,7 @@
           },
           {
             "name": "projeto_estrategico_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "projeto_estrategico_desc",
@@ -1415,7 +1270,7 @@
           },
           {
             "name": "funcao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "funcao_desc",
@@ -1423,7 +1278,7 @@
           },
           {
             "name": "subfuncao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "subfuncao_desc",
@@ -1431,7 +1286,7 @@
           },
           {
             "name": "uo_acao_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_acao_nome",
@@ -1439,19 +1294,19 @@
           },
           {
             "name": "is_deleted_acao",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "localizador_cod",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "is_deleted_localizador",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "regiao_geografica_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "regiao_geografica_desc",
@@ -1459,11 +1314,11 @@
           },
           {
             "name": "municipio_ibge_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "municipio_sigplan_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "municipio",
@@ -1471,35 +1326,35 @@
           },
           {
             "name": "vr_meta_orcamentaria_ano0",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_fisica_ano0",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_fisica_ano1",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_fisica_ano2",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_fisica_ano3",
-            "type": "integer"
+            "type": "string"
           }
         ]
       }
@@ -1514,15 +1369,20 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:d5d9e5651741fa9b8c87b0411a3e3a4710287c884555ffab7ef4687a2b761524",
-      "bytes": 26972073,
+      "hash": "sha256:6adede526fa980e2c6f1dd12e19c72341aa35f1049ae87d9cafd96b75444356c",
+      "bytes": 26935407,
       "fields": 29,
       "rows": 8263,
+      "dialect": {
+        "csv": {
+          "delimiter": ","
+        }
+      },
       "schema": {
         "fields": [
           {
             "name": "programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "programa_desc",
@@ -1530,15 +1390,15 @@
           },
           {
             "name": "is_deleted_programa",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "is_new_programa",
-            "type": "boolean"
+            "type": "string"
           },
           {
             "name": "area_tematica_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "area_tematica_desc",
@@ -1546,7 +1406,7 @@
           },
           {
             "name": "objetivo_estrategico_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "objetivo_estrategico_desc",
@@ -1554,7 +1414,7 @@
           },
           {
             "name": "diretriz_estrategica_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "diretriz_estrategica_desc",
@@ -1562,11 +1422,11 @@
           },
           {
             "name": "justificativa_is_new_programa",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "orgao_programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "orgao_programa_nome",
@@ -1574,7 +1434,7 @@
           },
           {
             "name": "uo_programa_cod",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "uo_programa_nome",
@@ -1606,23 +1466,23 @@
           },
           {
             "name": "vr_meta_orcamentaria_ano0",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano1",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano2",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "vr_meta_orcamentaria_ano3",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "is_programa_transposto",
-            "type": "any"
+            "type": "string"
           },
           {
             "name": "causas",
@@ -1634,12 +1494,232 @@
           },
           {
             "name": "ods_subtitulo",
-            "type": "any"
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "acoes_planejamento",
+      "type": "table",
+      "title": "acoes_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/acoes_planejamento.txt",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:af77e88b43cd909ac751fe8a124a09592c7ed3e9ce36cabfd9c98f3b7ea6d69f",
+      "bytes": 2110836,
+      "fields": 49,
+      "rows": 1017,
+      "dialect": {
+        "csv": {
+          "delimiter": "|"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Código do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Nome do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Código da Área Temática",
+            "type": "string"
+          },
+          {
+            "name": "Área Temática",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Programa Novo",
+            "type": "string"
+          },
+          {
+            "name": "Justificativa de Inclusão ou Exclusão do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Código da Unidade Orçamentária Responsável pelo Programa",
+            "type": "string"
+          },
+          {
+            "name": "Unidade Orçamentária Responsável pelo Programa",
+            "type": "string"
+          },
+          {
+            "name": "Código da Unidade Orçamentária Responsável pela Ação",
+            "type": "string"
+          },
+          {
+            "name": "Unidade Orçamentária Responsável pela Ação",
+            "type": "string"
+          },
+          {
+            "name": "Código da Função",
+            "type": "string"
+          },
+          {
+            "name": "Função",
+            "type": "string"
+          },
+          {
+            "name": "Código da Subfunção",
+            "type": "string"
+          },
+          {
+            "name": "Subfunção",
+            "type": "string"
+          },
+          {
+            "name": "Código do Tipo de Ação",
+            "type": "string"
+          },
+          {
+            "name": "Tipo de Ação",
+            "type": "string"
+          },
+          {
+            "name": "Código da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Título da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Código do Identificador de Ação Governamental (IAG)",
+            "type": "string"
+          },
+          {
+            "name": "Identificador de Ação Governamental (IAG)",
+            "type": "string"
+          },
+          {
+            "name": "Código do Projeto Estratégico",
+            "type": "string"
+          },
+          {
+            "name": "Projeto Estratégico",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Nova Ação",
+            "type": "string"
+          },
+          {
+            "name": "Justificativa de Inclusão ou Exclusão da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Transferida para o SISOR",
+            "type": "string"
+          },
+          {
+            "name": "Unidade Administrativa Responsável pela Ação",
+            "type": "string"
+          },
+          {
+            "name": "Base legal",
+            "type": "string"
+          },
+          {
+            "name": "Finalidade da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Descrição da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Código do Público-alvo",
+            "type": "string"
+          },
+          {
+            "name": "Público-Alvo",
+            "type": "string"
+          },
+          {
+            "name": "Código do Produto",
+            "type": "string"
+          },
+          {
+            "name": "Produto",
+            "type": "string"
+          },
+          {
+            "name": "Especificação do Produto",
+            "type": "string"
+          },
+          {
+            "name": "Código da Unidade de Medida do Produto",
+            "type": "string"
+          },
+          {
+            "name": "Unidade de Medida do Produto",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2026",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2027",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2028",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2029",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2026",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2027",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2028",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2029",
+            "type": "string"
+          },
+          {
+            "name": "Ação Transposta",
+            "type": "string"
+          },
+          {
+            "name": "Setor de Governo",
+            "type": "string"
+          },
+          {
+            "name": "Política para mulheres",
+            "type": "string"
           }
         ]
       }
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-08-26T07:05:09"
+  "updated_at": "2026-08-26T09:32:26"
 }
