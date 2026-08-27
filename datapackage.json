@@ -13,7 +13,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:bd9ee06b8d62b15fd8eb73805e5176c8c2ec3eee53ade2d1d6fa103a8b6d35ab",
+      "hash": "sha256:8ba77a602497e5bf2eceb43cea0fe302aae9b4f9654387fe02610358a6bc303b",
       "bytes": 12239,
       "fields": 5,
       "rows": 294,
@@ -52,8 +52,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:e7f6ffe95cbeb6c647e363de0b3293c46604d7ab8a5af82f3351b911b8b71c50",
-      "bytes": 26271,
+      "hash": "sha256:5a51d60aba949fcb030e1799c72b7341dc46b5ea757e4210ae17f0951a052878",
+      "bytes": 26774,
       "fields": 24,
       "rows": 165,
       "schema": {
@@ -88,7 +88,7 @@
           },
           {
             "name": "NUMERO DA OBRA SISOR",
-            "type": "yearmonth"
+            "type": "integer"
           },
           {
             "name": "NUMERO DA OBRA SIAD",
@@ -167,8 +167,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:669932edf22ce46b1667f340369dfa8a7b38916256e0650bf48c124b204666df",
-      "bytes": 614556,
+      "hash": "sha256:40f37fb87ad1a5c88ac3a7491663a3b9ea7b599d4db043c2b7198f28b431c767",
+      "bytes": 614553,
       "fields": 21,
       "rows": 7808,
       "schema": {
@@ -270,8 +270,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:21211407ca25525c7d6501174e9ba5b80c74c3601e495307be565aacc6ba9e1f",
-      "bytes": 161117,
+      "hash": "sha256:74115acad26b65362261915bac4de052b073a300e4d69828b67ba1fe37f6164c",
+      "bytes": 161118,
       "fields": 24,
       "rows": 1205,
       "schema": {
@@ -385,8 +385,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:910c85d71e0bff24d40090a57eb8fc60205db2467613ffb7d4380522684775e5",
-      "bytes": 379479,
+      "hash": "sha256:d793722db38150bff8930f5821e71aea93216451cda75ab96f04af3a00b23d9d",
+      "bytes": 379480,
       "fields": 27,
       "rows": 3576,
       "schema": {
@@ -512,7 +512,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:a34981cd2221495658b21a3540d976cd0649daa7d69e7dd22ba465d9a5fa6087",
+      "hash": "sha256:5ea0d2db999db1fbc1764b223d878478b85cc096d477cc5aae08339b63f95242",
       "bytes": 9474,
       "fields": 23,
       "rows": 32,
@@ -623,7 +623,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:cc222237499f407647bb2819e58d5e99c7d183cf2c602759889e14128db7aeea",
+      "hash": "sha256:beb00192aeb79535aa62d3b459783a37d36f010f9aacc4dc45dcd477b6de4fc6",
       "bytes": 6441,
       "fields": 9,
       "rows": 23,
@@ -890,5 +890,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-08-27T14:20:18"
+  "updated_at": "2026-08-27T14:25:04"
 }
