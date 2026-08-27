@@ -13,7 +13,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:c389386e7df4742324e00eb158a27407713699f09157e28301ec206e3b530eda",
+      "hash": "sha256:bd9ee06b8d62b15fd8eb73805e5176c8c2ec3eee53ade2d1d6fa103a8b6d35ab",
       "bytes": 12239,
       "fields": 5,
       "rows": 294,
@@ -52,8 +52,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:261226cf301357b0d62816aa4ac19b4901cff3d02b42015758620fdc34bf9d05",
-      "bytes": 26257,
+      "hash": "sha256:e7f6ffe95cbeb6c647e363de0b3293c46604d7ab8a5af82f3351b911b8b71c50",
+      "bytes": 26271,
       "fields": 24,
       "rows": 165,
       "schema": {
@@ -104,7 +104,7 @@
           },
           {
             "name": "UNIDADE DE MEDIDA DA OBRA",
-            "type": "integer"
+            "type": "string"
           },
           {
             "name": "QUANTIDADE",
@@ -167,8 +167,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:1194cfa8d1523d69c338c0900ff6e2ac1007967fae5177cbcfe0e43872c5e788",
-      "bytes": 614557,
+      "hash": "sha256:669932edf22ce46b1667f340369dfa8a7b38916256e0650bf48c124b204666df",
+      "bytes": 614556,
       "fields": 21,
       "rows": 7808,
       "schema": {
@@ -270,8 +270,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:768be9014b4c42b47f411788d1be65e598ef0e0579cfa2c2676e07bbaabd2886",
-      "bytes": 161118,
+      "hash": "sha256:21211407ca25525c7d6501174e9ba5b80c74c3601e495307be565aacc6ba9e1f",
+      "bytes": 161117,
       "fields": 24,
       "rows": 1205,
       "schema": {
@@ -385,8 +385,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:3c26ab16f8e5b3a658a5dc1ce44d4f9544e1f6c8483b1e756c890423803beeb6",
-      "bytes": 379480,
+      "hash": "sha256:910c85d71e0bff24d40090a57eb8fc60205db2467613ffb7d4380522684775e5",
+      "bytes": 379479,
       "fields": 27,
       "rows": 3576,
       "schema": {
@@ -512,7 +512,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:d3b36bdd9e316d6aaa1b6519cee5d28b8a8e9b55086d0bf276c1c213b01e38b1",
+      "hash": "sha256:a34981cd2221495658b21a3540d976cd0649daa7d69e7dd22ba465d9a5fa6087",
       "bytes": 9474,
       "fields": 23,
       "rows": 32,
@@ -623,7 +623,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:d6d701adc92feec772df85601e07a0de0d13f7d80d10435773f0c9a5426d3568",
+      "hash": "sha256:cc222237499f407647bb2819e58d5e99c7d183cf2c602759889e14128db7aeea",
       "bytes": 6441,
       "fields": 9,
       "rows": 23,
@@ -890,5 +890,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-08-27T12:52:14"
+  "updated_at": "2026-08-27T14:20:18"
 }
