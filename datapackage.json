@@ -13,8 +13,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:ea4f769d148877b3fdf650a7d8f2cfb31203c2181846dde987017acc797e323b",
-      "bytes": 12637,
+      "hash": "sha256:5161b81a89ce0bd743db86b81f36c87094e925f5831184c59aabbc061e3e5924",
+      "bytes": 12634,
       "fields": 5,
       "rows": 310,
       "schema": {
@@ -52,8 +52,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:4f99d9c9ba6c821d3d3137e164b89e25199b5ec93cb7dbdbe55d68240ddfbc3f",
-      "bytes": 28054,
+      "hash": "sha256:9d98a5f71deb971b8d21b413ea50fcaee7a06c6cfcdcd74a34d1b1a7ce496c78",
+      "bytes": 28055,
       "fields": 24,
       "rows": 173,
       "schema": {
@@ -123,20 +123,12 @@
             "type": "string"
           },
           {
-            "name": "VALOR TESOURO 2026 (R$)",
-            "type": "integer"
-          },
-          {
-            "name": "VALOR OUTROS 2026 (R$)",
-            "type": "integer"
-          },
-          {
             "name": "VALOR TESOURO 2027 (R$)",
-            "type": "yearmonth"
+            "type": "integer"
           },
           {
             "name": "VALOR OUTROS 2027 (R$)",
-            "type": "yearmonth"
+            "type": "integer"
           },
           {
             "name": "VALOR TESOURO 2028 (R$)",
@@ -153,6 +145,14 @@
           {
             "name": "VALOR OUTROS 2029 (R$)",
             "type": "yearmonth"
+          },
+          {
+            "name": "VALOR TESOURO 2030 (R$)",
+            "type": "yearmonth"
+          },
+          {
+            "name": "VALOR OUTROS 2030 (R$)",
+            "type": "yearmonth"
           }
         ]
       }
@@ -167,8 +167,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "iso2022_jp_ext",
-      "hash": "sha256:88e162f7a2365ff3c06fdcce2682f9e35df8f67de68f5a56c05da60a9d454a4f",
-      "bytes": 616711,
+      "hash": "sha256:41c198adb862671b8b9c1225aed4c9670e029028eace7a9b13abbaf70bc4f072",
+      "bytes": 616714,
       "fields": 21,
       "rows": 7832,
       "schema": {
@@ -270,7 +270,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:0d6b6695db6c0f06ae777b74a03dd9b18dd6f91f9709a240982cf821e02cca5c",
+      "hash": "sha256:03f4c3804f50df341ba427d0066448718dd18188239a14a433eb54bf47db1831",
       "bytes": 159460,
       "fields": 24,
       "rows": 1194,
@@ -385,8 +385,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:7f4c027740828bb68857872427d28458b7acd697ea501b548e8428fa3e399556",
-      "bytes": 383094,
+      "hash": "sha256:ff39ffba8da9defdd73bb6fd321a6caa8d8bee9f8d7da50fe2f6971149460423",
+      "bytes": 383097,
       "fields": 27,
       "rows": 3608,
       "schema": {
@@ -512,8 +512,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:088d175b63ec72f7cec99761a84dd9763255bee8dee81a56a3f845883a6fb9f3",
-      "bytes": 9474,
+      "hash": "sha256:d36804f0e5c70e7ec495c75c8017f99df6fbbc31acd5ab6cf6c006c2aa7055ce",
+      "bytes": 9473,
       "fields": 23,
       "rows": 32,
       "schema": {
@@ -623,8 +623,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:d45761476baae6be421102f67e341846a22856a4164684759246f69fe565937b",
-      "bytes": 6489,
+      "hash": "sha256:744b583fdcdc9d72309883fbb5ab9500df488eecbbe4f04e8c99e5d121eb76f5",
+      "bytes": 6488,
       "fields": 9,
       "rows": 24,
       "schema": {
@@ -678,7 +678,7 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:86a83757343d19031b807587244c7b570c764d4b47250f5fdfefeb4dae39df48",
+      "hash": "sha256:5e695a116007243c6967a584fe50a69884894d69262af2e659e754d6d9720934",
       "bytes": 2109167,
       "fields": 49,
       "rows": 1017,
@@ -842,10 +842,6 @@
             "type": "string"
           },
           {
-            "name": "Previsão Orçamentária 2026",
-            "type": "string"
-          },
-          {
             "name": "Previsão Orçamentária 2027",
             "type": "string"
           },
@@ -858,7 +854,7 @@
             "type": "string"
           },
           {
-            "name": "Previsão Física 2026",
+            "name": "Previsão Orçamentária 2030",
             "type": "string"
           },
           {
@@ -871,6 +867,10 @@
           },
           {
             "name": "Previsão Física 2029",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2030",
             "type": "string"
           },
           {
@@ -890,5 +890,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-08-31T08:58:26"
+  "updated_at": "2026-08-31T10:17:06"
 }
