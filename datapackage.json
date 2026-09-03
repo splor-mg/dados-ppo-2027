@@ -13,10 +13,10 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:c6d86cee2aabb02e1ab473f39c172d168e6a1ab5c5acae8fd5b5e310bb6d75da",
-      "bytes": 12753,
+      "hash": "sha256:893dbbe3d6ec1e4a2ceba725f04c2991269e79ad827e1988a3f9abb44d110643",
+      "bytes": 12933,
       "fields": 5,
-      "rows": 315,
+      "rows": 322,
       "schema": {
         "fields": [
           {
@@ -52,10 +52,10 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:7a739e8e91a545899650d287624ed446bf3f1ab58a6a8b82fd3b15dab39973c6",
-      "bytes": 40492,
+      "hash": "sha256:6cd3fc63076d91fc583c832a6b4549ef794fd961b5fee8de3db4d66a138cd355",
+      "bytes": 41083,
       "fields": 24,
-      "rows": 273,
+      "rows": 276,
       "schema": {
         "fields": [
           {
@@ -167,10 +167,10 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:b3655957b8ed7aa9fed7a6e0afdecb197747d21ba768ec74d0cd4439e21aa0f9",
-      "bytes": 659099,
+      "hash": "sha256:4b30c7bc7630349749288bac787cebf200d69e63ca5bc56359c40c45c7eb8e4a",
+      "bytes": 671852,
       "fields": 21,
-      "rows": 8354,
+      "rows": 8517,
       "schema": {
         "fields": [
           {
@@ -270,7 +270,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:689b78358f52c74578c51a25db388eee9610b2fc192d9ba9924ed44d9390eabe",
+      "hash": "sha256:42f0f6bd6f137bfd86fa311701c5661748ef93410750d0346448de788814dd4b",
       "bytes": 159838,
       "fields": 24,
       "rows": 1196,
@@ -385,10 +385,10 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:950fe7dfc9f5820cc2af974c8d2bffa19531822891b6c223fa4375bcfd243e33",
-      "bytes": 419973,
+      "hash": "sha256:8d990ee2038877d39b50aa8c0035c19b6c25a144cbea21100aa3de4371917b59",
+      "bytes": 428361,
       "fields": 27,
-      "rows": 3957,
+      "rows": 4040,
       "schema": {
         "fields": [
           {
@@ -512,7 +512,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:f80dfd35ed762d385b6bc75891768c085cb7c3a8f19b9d666b3b91e04e8ed9a0",
+      "hash": "sha256:1d54a82c4c603ed54b312fad3f8321495732a4a0367868b59502ddfcbee05bcf",
       "bytes": 9473,
       "fields": 23,
       "rows": 32,
@@ -623,10 +623,10 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:b9539e057079d2ded5561292516c2edc64d6bf431a92c15bf2639186f8d701de",
-      "bytes": 7024,
+      "hash": "sha256:338a4266ff5eda1ab9c682b4b6b3f906bcaedc8f7f55b103788383e1e02913e2",
+      "bytes": 7184,
       "fields": 9,
-      "rows": 34,
+      "rows": 37,
       "schema": {
         "fields": [
           {
@@ -678,8 +678,8 @@
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
-      "hash": "sha256:d5e9ac4ba3d5f4fa3a42be3d705c7392485d43b1cc416b46828f317c59c63dbf",
-      "bytes": 2119134,
+      "hash": "sha256:fce7e7b3f64322955deaacde3d24e9e10c0bfa786b2b00da755fbf159827ab58",
+      "bytes": 2118898,
       "fields": 49,
       "rows": 1021,
       "dialect": {
@@ -890,5 +890,5 @@
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-09-02T08:43:35"
+  "updated_at": "2026-09-03T08:36:24"
 }
