@@ -13,8 +13,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:331b3143bfcef01055463f4ec31b247ee9fe62c4464c39c1ceab6e83f3919e1b",
-      "bytes": 13307,
+      "hash": "sha256:3d6b5cbb93c8c63ec7582320c64b5b253c23765e50e73db7d38fcc4d2ce1002c",
+      "bytes": 13306,
       "fields": 5,
       "rows": 340,
       "schema": {
@@ -52,8 +52,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:f0d4f5814c94cfc81d35c0e721ceaabcff8581de212647c7233dcdcef9ca75d8",
-      "bytes": 40371,
+      "hash": "sha256:00847f9cdab5d4719924d52cca2da285e392876680890f027404b771d60649c3",
+      "bytes": 40370,
       "fields": 24,
       "rows": 267,
       "schema": {
@@ -167,8 +167,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:5451e8c2fce656de0fa46ef16cda363e54ce1b343a971334003f954822f9419d",
-      "bytes": 766002,
+      "hash": "sha256:b08f9c456603b2bc01e0f59005141b408e74b10bb2f60482f8d9d81362f9dab6",
+      "bytes": 766001,
       "fields": 21,
       "rows": 9774,
       "schema": {
@@ -270,8 +270,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:10c31602a1c19d7cec429c7558cc75dffbd48bae868fda8cc842c87edd6237d1",
-      "bytes": 159906,
+      "hash": "sha256:d09a7b312a4d8f35717a294bd66a39529fcdbc2f2fd091a48aab8ff9137c7c58",
+      "bytes": 159905,
       "fields": 24,
       "rows": 1196,
       "schema": {
@@ -385,8 +385,8 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:dc2a9a4c8d021606e0c06ae7ee18a5c6725b87d59f6f6e63d7d1cb23d72af879",
-      "bytes": 478039,
+      "hash": "sha256:83393922a0b1da839c1c3fee0142a9f0c80c35352a91f819b13a58d2e8ba4b16",
+      "bytes": 478038,
       "fields": 27,
       "rows": 4531,
       "schema": {
@@ -512,7 +512,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:b77a21ffea6f81307d708a5aa6575c68feddc25ae58dbe15854a56de3a0e7e97",
+      "hash": "sha256:06d15c9f20903efeb329e9ebb17a375e79dc43dc6452d0a5c584f99f68f6c5d3",
       "bytes": 9925,
       "fields": 23,
       "rows": 34,
@@ -623,7 +623,7 @@
       "format": "xlsx",
       "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
       "encoding": "utf-8",
-      "hash": "sha256:465ce9a4d17bd8674dd6974e3a6a055d0097fd2755d8de21d37cea7d7debb2cc",
+      "hash": "sha256:2ba527bf8bb00378d082c6b30b5d6e9f433eb2447d4b941fc13bbce9364a5b1d",
       "bytes": 7739,
       "fields": 9,
       "rows": 47,
@@ -887,8 +887,432 @@
           }
         ]
       }
+    },
+    {
+      "name": "indicadores_planejamento",
+      "type": "table",
+      "title": "indicadores_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/indicadores_planejamento.txt",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:f6a02f55419ef9da22168c298ddfb5f3cacf6312e4702a4cfa5697bf0f919953",
+      "bytes": 115791,
+      "fields": 26,
+      "rows": 230,
+      "dialect": {
+        "csv": {
+          "delimiter": "|"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Código do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Nome do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Indicador",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica do Indicador",
+            "type": "string"
+          },
+          {
+            "name": "Unidade de Medida",
+            "type": "string"
+          },
+          {
+            "name": "Índice de Referência",
+            "type": "string"
+          },
+          {
+            "name": "Em apuração? (Índice de Referência)",
+            "type": "string"
+          },
+          {
+            "name": "Data de Apuração",
+            "type": "string"
+          },
+          {
+            "name": "Previsão para 2027",
+            "type": "string"
+          },
+          {
+            "name": "Em apuração? (2027)",
+            "type": "string"
+          },
+          {
+            "name": "Previsão para 2028",
+            "type": "string"
+          },
+          {
+            "name": "Em apuração? (2028)",
+            "type": "string"
+          },
+          {
+            "name": "Previsão para 2029",
+            "type": "string"
+          },
+          {
+            "name": "Em apuração? (2029)",
+            "type": "string"
+          },
+          {
+            "name": "Previsão para 2030",
+            "type": "string"
+          },
+          {
+            "name": "Em apuração? (2030)",
+            "type": "string"
+          },
+          {
+            "name": "Fonte",
+            "type": "string"
+          },
+          {
+            "name": "Periodicidade",
+            "type": "string"
+          },
+          {
+            "name": "Base Geográfica",
+            "type": "string"
+          },
+          {
+            "name": "Fórmula de Cálculo",
+            "type": "string"
+          },
+          {
+            "name": "Justificativa do Status em apuração da(s) Previsão(es) do(s) Índice(s)",
+            "type": "string"
+          },
+          {
+            "name": "Justificativa do Status em apuração do Índice de Referência",
+            "type": "string"
+          },
+          {
+            "name": "Data Alteração",
+            "type": "string"
+          },
+          {
+            "name": "Indicador Novo?",
+            "type": "string"
+          },
+          {
+            "name": "Polaridade",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "localizadores_todos_planejamento",
+      "type": "table",
+      "title": "localizadores_todos_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/localizadores_todos_planejamento.txt",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:f87331f11ca843534801cf3f72a15976029eeeb8f479b1d3dc70f830a399d1ca",
+      "bytes": 22587967,
+      "fields": 33,
+      "rows": 51546,
+      "dialect": {
+        "csv": {
+          "delimiter": "|"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Código do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Nome do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Código da Área Temática",
+            "type": "string"
+          },
+          {
+            "name": "Área Temática",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Código da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Título da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Código do Identificador de Ação Governamental (IAG)",
+            "type": "string"
+          },
+          {
+            "name": "Identificador de Ação Governamental (IAG)",
+            "type": "string"
+          },
+          {
+            "name": "Código do Projeto Estratégico",
+            "type": "string"
+          },
+          {
+            "name": "Projeto Estratégico",
+            "type": "string"
+          },
+          {
+            "name": "Código da Função",
+            "type": "string"
+          },
+          {
+            "name": "Função",
+            "type": "string"
+          },
+          {
+            "name": "Código da Subfunção",
+            "type": "string"
+          },
+          {
+            "name": "SubFunção",
+            "type": "string"
+          },
+          {
+            "name": "Código da Unidade Orçamentária Responsável pela Ação",
+            "type": "string"
+          },
+          {
+            "name": "Unidade Orçamentária Responsável pela Ação",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica da Ação",
+            "type": "string"
+          },
+          {
+            "name": "Código do Localizador",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica do Localizador",
+            "type": "string"
+          },
+          {
+            "name": "Código da Região Geográfica Intermediária",
+            "type": "string"
+          },
+          {
+            "name": "Região Geográfica Intermediária",
+            "type": "string"
+          },
+          {
+            "name": "Código do Município IBGE",
+            "type": "string"
+          },
+          {
+            "name": "Código do Município Sigplan",
+            "type": "string"
+          },
+          {
+            "name": "Município",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2027",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2027",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2028",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2028",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2029",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2029",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2030",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Física 2030",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "programas_planejamento",
+      "type": "table",
+      "title": "programas_planejamento",
+      "profile": "tabular-data-resource",
+      "path": "data/programas_planejamento.txt",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "hash": "sha256:414c419cac5951bb659f314bdf1eeadb985870844ec41da17282da4b4b1f44e1",
+      "bytes": 26947017,
+      "fields": 29,
+      "rows": 8272,
+      "dialect": {
+        "csv": {
+          "delimiter": "|"
+        }
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "Código do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Nome do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Exclusão Lógica do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Programa Novo",
+            "type": "string"
+          },
+          {
+            "name": "Código da Área Temática",
+            "type": "string"
+          },
+          {
+            "name": "Área Temática",
+            "type": "string"
+          },
+          {
+            "name": "Código do Objetivo Estratégico",
+            "type": "string"
+          },
+          {
+            "name": "Objetivo Estratégico",
+            "type": "string"
+          },
+          {
+            "name": "Código da Diretriz Estratégica",
+            "type": "string"
+          },
+          {
+            "name": "Diretriz Estratégica",
+            "type": "string"
+          },
+          {
+            "name": "Justificativa de Inclusão ou Exclusão do Programa",
+            "type": "string"
+          },
+          {
+            "name": "Código do Órgão Responsável pelo Programa",
+            "type": "string"
+          },
+          {
+            "name": "Órgão Responsável pelo Programa",
+            "type": "string"
+          },
+          {
+            "name": "Código da Unidade Orçamentária Responsável pelo Programa",
+            "type": "string"
+          },
+          {
+            "name": "Unidade Orçamentária Responsável pelo Programa",
+            "type": "string"
+          },
+          {
+            "name": "Objetivo",
+            "type": "string"
+          },
+          {
+            "name": "Justificativa",
+            "type": "string"
+          },
+          {
+            "name": "Tipo de Programa",
+            "type": "string"
+          },
+          {
+            "name": "Horizonte Temporal",
+            "type": "string"
+          },
+          {
+            "name": "Estratégia de Implementação",
+            "type": "string"
+          },
+          {
+            "name": "Unidade Administrativa Responsável pelo Programa",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2027",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2028",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2029",
+            "type": "string"
+          },
+          {
+            "name": "Previsão Orçamentária 2030",
+            "type": "string"
+          },
+          {
+            "name": "Programa Transposto",
+            "type": "string"
+          },
+          {
+            "name": "Causas",
+            "type": "string"
+          },
+          {
+            "name": "Título do Objetivo de Desenvolvimento Sustentável",
+            "type": "string"
+          },
+          {
+            "name": "Subtítulo do Objetivo de Desenvolvimento Sustentável",
+            "type": "string"
+          }
+        ]
+      }
     }
   ],
   "owner_org": "secretaria-de-estado-de-planejamento-e-gestao-seplag",
-  "updated_at": "2026-09-24T09:17:57"
+  "updated_at": "2026-09-24T10:39:19"
 }
